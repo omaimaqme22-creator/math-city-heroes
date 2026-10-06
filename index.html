@@ -1,0 +1,108 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>مدينة الأبطال الرياضيين</title><style>
+:root{--p:#d88bb5;--p2:#f8e1ed;--v:#8e78b7;--bg:#fff8fc;--ink:#44364f}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Tahoma,Arial,sans-serif}header{background:linear-gradient(135deg,#f6d4e5,#e6def6);padding:25px;text-align:center}h1{margin:0;color:#a84678}h2{color:#87517c}.nav{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;background:#fff;padding:12px;position:sticky;top:0;z-index:3;box-shadow:0 2px 10px #0001}.nav button,.btn{border:0;border-radius:14px;padding:10px 15px;background:var(--p2);color:#60466f;font-weight:bold;cursor:pointer}.primary{background:var(--p)!important;color:#fff!important}.container{max-width:1100px;margin:auto;padding:22px 15px}.card{background:#fff;border:1px solid #ecd8e6;border-radius:20px;padding:20px;margin-bottom:16px;box-shadow:0 4px 14px #0000000c}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}.hidden{display:none}.login{max-width:550px;margin:50px auto;text-align:center}input,select{padding:10px;border:1px solid #dcc9db;border-radius:10px;margin:5px;max-width:100%}.progress{height:12px;background:#eee;border-radius:10px;overflow:hidden}.progress div{height:100%;background:linear-gradient(90deg,var(--p),var(--v))}.station{position:relative}.lock{position:absolute;left:15px;font-size:25px}.done{background:#f2fff7;border-color:#9bd0b2}.q{background:#fff7fb;border:1px solid #edd7e5;border-radius:15px;padding:14px;margin:12px 0}.choice{margin:5px;padding:9px 13px;border:0;border-radius:10px;background:#eee6f7;cursor:pointer}.selected{background:var(--p);color:#fff}.passport{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px}.stamp{height:145px;border:2px dashed #d8c4d6;border-radius:18px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;text-align:center}.stamp.ok{border-style:solid;border-color:#80bd9e;background:#f1fff7}.seal{width:52px;height:52px;border-radius:50%;background:#f3d3e2;display:grid;place-items:center;font-size:24px}.danger{background:#f3d9de;color:#9b4051;border:0;border-radius:9px;padding:7px}.pill{display:inline-block;background:#eee5f7;padding:5px 10px;border-radius:15px;margin:3px}footer{text-align:center;padding:25px;color:#725b7c}.colors span{display:inline-block;width:35px;height:35px;border-radius:50%;margin:5px;border:2px solid #fff;box-shadow:0 0 0 1px #bbb;cursor:pointer}.avatarbox{display:flex;align-items:center;gap:15px;flex-wrap:wrap;background:#fff7fb;border:1px dashed #e1bfd4;border-radius:18px;padding:15px;margin-bottom:18px}.avatar{width:82px;height:82px;border-radius:50%;object-fit:cover;border:4px solid #f1c6da;background:#fff}.stamp .stationseal{font-size:27px}.stamp.ok .seal{background:linear-gradient(135deg,#f4c9dd,#d8c8ef);box-shadow:0 0 0 4px #fff,0 0 0 6px #dca8c5}.ranktable tr.me{background:#fff0f7}.ranknum{font-weight:bold;color:#b04b7f}.modal{position:fixed;inset:0;background:#0008;display:flex;align-items:center;justify-content:center;z-index:50}.modalbox{max-width:600px;width:90%;background:#fff9fc;border:5px solid #e7b3d0;border-radius:30px;padding:35px;text-align:center;box-shadow:0 20px 70px #0005}.bigcup{font-size:80px;animation:bounce 1s infinite alternate}@keyframes bounce{to{transform:translateY(-10px)}}.rankingcard{overflow:auto}
+</style>
+<style id="mobile-optimization">
+html{scroll-behavior:smooth}
+body{-webkit-text-size-adjust:100%;overscroll-behavior-y:none}
+button,.btn,.nav button,.choice{min-height:44px;-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+input,select{font-size:16px;min-height:44px}
+.nav{justify-content:flex-start;overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding:10px 12px}
+.nav::-webkit-scrollbar{display:none}
+.nav button{white-space:nowrap;flex:0 0 auto}
+@media(max-width:700px){
+ header{padding:18px 12px}
+ header h1{font-size:25px;line-height:1.35}
+ header p{font-size:14px}
+ .container{padding:14px 10px}
+ .card{padding:15px;border-radius:17px}
+ .grid{grid-template-columns:1fr}
+ .passport{grid-template-columns:1fr 1fr}
+ .stamp{min-height:145px;height:auto}
+ .q{padding:12px}
+ .choice{width:calc(100% - 10px);margin:5px}
+ .login{margin:25px auto}
+ .login input,.login select{width:100%!important;margin:5px 0}
+ .primary,.btn{padding:11px 15px}
+ table{font-size:13px;min-width:620px}
+ .rankingcard{overflow-x:auto}
+ .avatarbox{align-items:flex-start}
+ .avatar{width:72px;height:72px}
+}
+@media(max-width:390px){
+ .passport{grid-template-columns:1fr}
+ header h1{font-size:22px}
+}
+</style>
+
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#d88bb5">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="مدينة الأبطال">
+<meta name="mobile-web-app-capable" content="yes">
+</head><body>
+<header><h1>🏆 مبادرة مدينة الأبطال الرياضيين</h1><p>هنا تتحول الأرقام إلى إنجازات ✨</p><b>منصة الرياضيات التفاعلية — الصف الثاني</b></header>
+<div id="login" class="container"><div class="card login"><div style="font-size:48px">🌷🔢🏆</div><h2>مرحبًا يا بطل الرياضيات</h2><p>اكتب اسمك واختر صفك قبل الدخول.</p><input id="ln" placeholder="اسم الطالب" style="width:90%"><select id="lc" style="width:90%"></select><br><button class="btn primary" onclick="studentLogin()">دخول الطالب 🚀</button><br><button class="btn" onclick="adminLogin()">دخول المعلمة ⚙️</button><p id="lm"></p></div></div>
+<div id="app" class="hidden"><div class="nav"><button onclick="show('home')">الرئيسية</button><button onclick="show('stations')">محطاتي</button><button onclick="show('passport')">جواز سفري</button><button onclick="show('ach')">إنجازاتي</button><button onclick="show('nom')">المترشحون 🏆</button><button id="adminBtn" class="hidden" onclick="show('admin')">إعدادات المعلمة ⚙️</button><button onclick="location.reload()">خروج</button></div>
+<main class="container"><section id="home"><div class="card"><h2 id="welcome"></h2><p>المحطات تفتح بالتسلسل؛ لا تنتقل للمحطة التالية حتى تنهي السابقة.</p><div class="progress"><div id="bar"></div></div><p id="prog"></p></div><div class="grid"><div class="card"><h3>⭐ نقاطي</h3><b id="pts"></b></div><div class="card"><h3>🎫 أختامي</h3><b id="stamps"></b></div><div class="card"><h3>🏅 مستواي</h3><b id="level"></b></div></div></section>
+<section id="stations" class="hidden"><div class="card"><h2>🏙️ محطات المدينة</h2><div id="stationList" class="grid"></div></div></section>
+<section id="work" class="hidden"><div id="workBox"></div></section>
+<section id="passport" class="hidden">
+<div class="card">
+<h2>🎫 جواز سفري الرياضي</h2>
+<div class="avatarbox">
+<img id="avatarImg" class="avatar" alt="صورة الطالب">
+<div><b>صورتي في الجواز 📸</b><p class="small">إضافة الصورة اختيارية، وتبقى محفوظة على هذا الجهاز.</p>
+<input id="avatarFile" type="file" accept="image/*" onchange="saveAvatar(this)">
+<button class="btn" onclick="removeAvatar()">حذف الصورة</button></div>
+</div>
+<div id="pass" class="passport"></div>
+</div></section>
+<section id="ach" class="hidden"><div class="card"><h2>🌟 إنجازاتي</h2><div id="achBox"></div></div></section>
+<section id="nom" class="hidden"><div class="card"><h2>🏆 المترشحون</h2><p>يظهر الطالب هنا بعد إكمال المحطات الخمس.</p><div id="nomBox"></div></div></section>
+<section id="admin" class="hidden"><div class="card"><h2>⚙️ لوحة المعلمة</h2><p>إعداد أ/ أميمة الكيومية</p><div class="grid"><div class="card"><h3>🎨 الألوان</h3><div class="colors"><span style="background:#d88bb5" onclick="theme('#d88bb5','#f8e1ed','#8e78b7')"></span><span style="background:#a98bd4" onclick="theme('#a98bd4','#e9ddf8','#6e5a9d')"></span><span style="background:#e4a4b9" onclick="theme('#e4a4b9','#fae4eb','#9b6680')"></span><span style="background:#79b99a" onclick="theme('#79b99a','#def2e8','#527f6a')"></span></div></div><div class="card"><h3>🏫 إضافة فصل</h3><input id="newClass" placeholder="مثال: 2/أ"><button class="btn primary" onclick="addClass()">إضافة</button><div id="classes"></div></div><div class="card"><h3>👧 إضافة طالب</h3><select id="ac"></select><input id="newStudent" placeholder="اسم الطالب"><button class="btn primary" onclick="addStudent()">إضافة</button><div id="students"></div></div><div class="card"><h3>🔑 رمز المعلمة</h3><p>الرمز الافتراضي: <b>1234</b></p><button class="btn" onclick="pin()">تغيير الرمز</button></div><div class="card rankingcard"><h3>📊 لوحة ترتيب الطلاب والنقاط</h3><p class="small">ترتيب تلقائي من الأعلى نقاطًا إلى الأقل.</p><div id="ranking"></div></div></div></div></section></main><footer>إعداد أ/ <b>أميمة الكيومية</b> | مديرة المدرسة: <b>فضيلة الفارسية</b></footer></div>
+<div id="celebrate" class="modal hidden">
+<div class="modalbox">
+<div class="bigcup">🏆</div>
+<h1>مبروك يا بطل الرياضيات! 🎉</h1>
+<p id="celebrateText"></p>
+<p>أكملت المحطات الخمس وجمعت جميع الأختام.</p>
+<button class="btn primary" onclick="closeCelebrate()">عرض جوازي 🎫</button>
+</div></div>
+<script>
+const ST=[['🛍️','متجر الأرقام','الجمع والطرح',[['100 + 200 = ؟',['300','250','400'],'300'],['500 - 100 = ؟',['300','400','500'],'400'],['رتب: 100، 400، 200',['100، 200، 400','400، 200، 100','200، 100، 400'],'100، 200، 400']]],['🏦','بنك الأعداد','القيمة المكانية والترتيب',[['في 47، قيمة 4؟',['4','40','7'],'40'],['رتب: 35، 12، 28',['12، 28، 35','35، 28، 12','28، 12، 35'],'12، 28، 35'],['10،20،30،؟',['35','40','50'],'40']]],['🚌','محطة الحافلات','حل المسائل اللفظية',[['23 + 12 = ؟',['35','31','45'],'35'],['40 - 27 = ؟',['13','17','23'],'13'],['رتب: 18،7،25',['7، 18، 25','25،18،7','18،7،25'],'7، 18، 25']]],['🍹','مطعم الأبطال','الجمع والطرح والمقارنة',[['100 + 200 = ؟',['250','300','400'],'300'],['500 - 400 = ؟',['50','100','200'],'100'],['الأغلى: بسكوت 150 أم كب كيك 300؟',['البسكوت','الكب كيك','متساويان'],'الكب كيك']]],['🔐','مركز الأسرار','التفكير المنطقي والأنماط',[['2،4،6،8،؟',['9','10','12'],'10'],['5،10،15،؟',['18','20','25'],'20'],['25 + ؟ = 40',['10','15','20'],'15']]]];
+let D=JSON.parse(localStorage.getItem('MATHCITY')||'null')||{classes:['2/أ','2/ب'],students:[],pin:'1234',theme:['#d88bb5','#f8e1ed','#8e78b7'],current:null};
+const save=()=>localStorage.setItem('MATHCITY',JSON.stringify(D));function theme(a,b,c){document.documentElement.style.setProperty('--p',a);document.documentElement.style.setProperty('--p2',b);document.documentElement.style.setProperty('--v',c);D.theme=[a,b,c];save()}
+function fillClasses(){lc.innerHTML='<option value="">اختر الصف</option>'+D.classes.map(x=>'<option>'+x+'</option>').join('');ac.innerHTML=D.classes.map(x=>'<option>'+x+'</option>').join('')}
+function studentLogin(){let n=ln.value.trim(),c=lc.value;if(!n||!c)return lm.textContent='🌷 اكتبي الاسم واختاري الصف.';let s=D.students.find(x=>x.name==n&&x.cls==c);if(!s){s={name:n,cls:c,points:0,done:[],ans:{},avatar:null};D.students.push(s)}D.current={role:'student',name:n,cls:c};save();enter()}
+function adminLogin(){let p=prompt('رمز المعلمة:');if(p!=D.pin)return alert('الرمز غير صحيح');D.current={role:'admin'};save();enter()}
+function enter(){login.classList.add('hidden');app.classList.remove('hidden');adminBtn.classList.toggle('hidden',D.current.role!='admin');render();show('home')}
+function me(){return D.students.find(x=>x.name==D.current.name&&x.cls==D.current.cls)}
+function show(id){document.querySelectorAll('main section').forEach(x=>x.classList.add('hidden'));document.getElementById(id).classList.remove('hidden');render();scrollTo(0,0)}
+function render(){fillClasses();if(D.current?.role=='student'){let s=me();welcome.textContent='مرحبًا '+s.name+' 🌷 | الصف '+s.cls;pts.textContent=s.points;stamps.textContent=s.done.length+' / 5';bar.style.width=(s.done.length*20)+'%';prog.textContent='أنجزت '+s.done.length+' من 5 محطات';level.textContent=s.done.length==5?'🏆 بطل الرياضيات':s.done.length>=3?'⭐ بطل متقدم':'🌱 بطل تحت التدريب';renderStations();renderPass();renderAch();renderNom();renderAvatar()}else renderAdmin()}
+function renderStations(){let s=me();stationList.innerHTML=ST.map((x,i)=>{let unlocked=i==0||s.done.includes(i-1),done=s.done.includes(i);return `<div class="card station ${done?'done':''}">${!unlocked?'<span class="lock">🔒</span>':''}<h3>${x[0]} ${x[1]}</h3><span class="pill">${x[2]}</span><p>${done?'✅ مكتملة':unlocked?'🔓 مفتوحة':'🔒 أكمل السابقة'}</p><button class="btn ${unlocked?'primary':''}" ${unlocked?'':'disabled'} onclick="openStation(${i})">${done?'مراجعة':'ابدأ'}</button></div>`}).join('')}
+function openStation(i){let s=me();if(i>0&&!s.done.includes(i-1))return;let x=ST[i],old=s.ans[i]||[];workBox.innerHTML='<div class="card"><h2>'+x[0]+' '+x[1]+'</h2><p>المهارة: <b>'+x[2]+'</b></p>'+x[3].map((q,j)=>'<div class="q"><b>'+(j+1)+'. '+q[0]+'</b><div>'+q[1].map(v=>`<button class="choice ${old[j]==v?'selected':''}" onclick="choose(${i},${j},this)">${v}</button>`).join('')+'</div></div>').join('')+'<button class="btn primary" onclick="finish('+i+')">إنهاء المحطة وختم الجواز 🎫</button><p id="wm"></p></div>';show('work')}
+function choose(i,j,b){let s=me();s.ans[i]=s.ans[i]||[];s.ans[i][j]=b.textContent;b.parentNode.querySelectorAll('.choice').forEach(x=>x.classList.remove('selected'));b.classList.add('selected');save()}
+function finish(i){let s=me(),qs=ST[i][3],a=s.ans[i]||[];if(a.length<3)return wm.textContent='💡 أجيبي عن الأسئلة الثلاثة.';let n=qs.reduce((z,q,j)=>z+(a[j]==q[2]?1:0),0);let firstTime=!s.done.includes(i);if(firstTime){s.done.push(i);s.points+=10+n*10}save();render();wm.textContent='🎉 أحسنت! نتيجتك '+n+'/3 وحصلت على ختم المحطة ونقاط إضافية.';if(firstTime&&s.done.length===5){setTimeout(()=>openCelebrate(s.name),250)}}
+
+function openCelebrate(name){celebrateText.textContent='تهانينا '+name+'! لقد أصبحت رسميًا من أبطال الرياضيات في مدينة الأبطال الرياضيين.';celebrate.classList.remove('hidden')}
+function closeCelebrate(){celebrate.classList.add('hidden');show('passport')}
+
+function renderPass(){let s=me();pass.innerHTML=ST.map((x,i)=>{let ok=s.done.includes(i);let colors=['#f5c6dc','#d9c8ee','#c8e6df','#f6dfb8','#cfdcf2'];return `<div class="stamp ${ok?'ok':''}" style="${ok?'border-color:'+colors[i]+';':''}"><div class="seal">${ok?'✓':'🔒'}</div><div class="stationseal">${x[0]}</div><b>${x[1]}</b><small>${ok?'ختم مكتمل • '+['نجمة المتجر','ختم أمين الأعداد','ختم قائد الحافلة','ختم بطل المطعم','ختم كاشف الأسرار'][i]:'الختم بانتظار الإنجاز'}</small></div>`}).join('')}
+
+function renderAch(){let s=me();achBox.innerHTML='<p>⭐ النقاط: <b>'+s.points+'</b></p><p>🎫 الأختام: <b>'+s.done.length+'/5</b></p><p>🏆 اللقب: <b>'+(s.done.length==5?'بطل الرياضيات':'بطل تحت التدريب')+'</b></p>'+(s.done.length==5?'<div class="card"><h2>🎓 شهادة تقدير</h2><p>تهانينا للبطل/البطلة <b>'+s.name+'</b></p><p>لإكمال محطات مدينة الأبطال الرياضيين بنجاح.</p></div>':'<p>أكمل المحطات الخمس لتحصل على شهادة التقدير.</p>')}
+function renderAvatar(){let s=me();avatarImg.src=s.avatar||'data:image/svg+xml;charset=UTF-8,'+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100"><rect width="100" height="100" rx="50" fill="#f8e1ed"/><text x="50" y="62" text-anchor="middle" font-size="45">👤</text></svg>')}
+function saveAvatar(input){let file=input.files&&input.files[0];if(!file)return;let reader=new FileReader();reader.onload=e=>{let img=new Image();img.onload=()=>{let c=document.createElement('canvas'),max=300,scale=Math.min(1,max/Math.max(img.width,img.height));c.width=Math.round(img.width*scale);c.height=Math.round(img.height*scale);c.getContext('2d').drawImage(img,0,0,c.width,c.height);me().avatar=c.toDataURL('image/jpeg',.82);save();renderAvatar()};img.src=e.target.result};reader.readAsDataURL(file)}
+function removeAvatar(){delete me().avatar;save();renderAvatar()}
+function renderNom(){let a=D.students.filter(x=>x.done.length==5);nomBox.innerHTML=a.length?a.map(x=>'<span class="pill">🏆 '+x.name+' — '+x.cls+' — '+x.points+' نقطة</span>').join(' '):'<p>لا يوجد مترشحون بعد.</p>'}
+function renderAdmin(){classes.innerHTML=D.classes.map(c=>'<p>📘 '+c+' <button class="danger" onclick="removeClass(\''+c+'\')">حذف</button></p>').join('');students.innerHTML=D.students.map((s,i)=>'<p>👤 '+s.name+' ('+s.cls+') <button class="danger" onclick="removeStudent('+i+')">حذف</button></p>').join('')||'<p>لا يوجد طلاب.</p>';let sorted=[...D.students].sort((a,b)=>b.points-a.points);ranking.innerHTML=sorted.length?'<table class="ranktable"><tr><th>المركز</th><th>الطالب</th><th>الصف</th><th>النقاط</th><th>الأختام</th></tr>'+sorted.map((x,i)=>'<tr class="'+(D.current?.role==='student'&&x.name===D.current.name&&x.cls===D.current.cls?'me':'')+'"><td class="ranknum">'+(i+1)+'</td><td>'+x.name+'</td><td>'+x.cls+'</td><td>⭐ '+x.points+'</td><td>🎫 '+x.done.length+'/5</td></tr>').join('')+'</table>':'<p>لا توجد بيانات طلاب بعد.</p>'}
+
+function addClass(){let x=newClass.value.trim();if(x&&!D.classes.includes(x)){D.classes.push(x);newClass.value='';save();render()}}function removeClass(c){if(confirm('حذف الفصل والطلاب التابعين له؟')){D.classes=D.classes.filter(x=>x!=c);D.students=D.students.filter(x=>x.cls!=c);save();render()}}function addStudent(){let n=newStudent.value.trim(),c=ac.value;if(n){D.students.push({name:n,cls:c,points:0,done:[],ans:{},avatar:null});newStudent.value='';save();render()}}function removeStudent(i){if(confirm('حذف الطالب؟')){D.students.splice(i,1);save();render()}}function pin(){let p=prompt('الرمز الجديد:');if(p){D.pin=p;save();alert('تم تغيير الرمز')}}
+(function(){document.documentElement.style.setProperty('--p',D.theme[0]);document.documentElement.style.setProperty('--p2',D.theme[1]);document.documentElement.style.setProperty('--v',D.theme[2]);fillClasses()})()
+</script>
+<script>
+if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) {
+  window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js').catch(()=>{}));
+}
+</script>
+</body></html>
