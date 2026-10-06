@@ -1,12 +1,10 @@
 {
-  "name": "مبادرة مدينة الأبطال الرياضيين",
-  "short_name": "مدينة الأبطال",
-  "lang": "ar",
-  "dir": "rtl",
+  "name": "مدينة الأبطال الرياضيين — الصف الثاني",
+  "short_name": "أبطال الرياضيات",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#fff8fc",
   "theme_color": "#d88bb5",
-  "description": "منصة الرياضيات التفاعلية لطلاب الصف الثاني",
-  "icons": []
+  "lang": "ar",
+  "dir": "rtl"
 }
