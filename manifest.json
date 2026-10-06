@@ -1,0 +1,11 @@
+{
+  "name": "مدينة الأبطال الرياضيين",
+  "short_name": "أبطال الرياضيات",
+  "start_url": "./",
+  "display": "standalone",
+  "dir": "rtl",
+  "lang": "ar",
+  "background_color": "#fff9fc",
+  "theme_color": "#d88bb5",
+  "icons": []
+}
